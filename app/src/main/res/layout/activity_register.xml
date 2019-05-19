@@ -1,0 +1,40 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="4dp"
+    android:background="@drawable/purpleheart">
+<TextView
+    android:id="@+id/RegHeadingTxt"
+    android:layout_gravity="left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:text="Register"
+    android:textSize="35dp"
+    android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/RoleTxt"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Please select account type"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <Spinner
+        android:id="@+id/regRoleSpinner"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#cccc"
+        android:popupBackground="#ffff"
+        />
+</LinearLayout>

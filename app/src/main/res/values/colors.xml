@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#115e80</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4a7eb6</color>
+    <color name="buttonPressed">#000000</color>
+    <color name="OnbtnColor">#1586d1</color>
+    <color name="OffbtnColor">#174ebc</color>
+    <color name="DiscoverbtnColor">#5322a2</color>
+    <color name="PairedListbtnColor">#421a83</color>
+    <color name="font">#FFFFFF</color>
+</resources>

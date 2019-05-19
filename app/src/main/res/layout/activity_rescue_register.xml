@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RescueRegister"
+    android:paddingHorizontal="4dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/purpleheart">
+
+    <TextView
+        android:id="@+id/RescueRegisterHeadingTxt"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Rescue Registration "
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="121dp"
+        android:src="@drawable/rescuelarge" />
+
+    <EditText
+        android:id="@+id/nameRescueRegET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Organization Name"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/contactNoRescueRegET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Phone Number"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/emailRescueRegET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Email"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/passwordRescueRegET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Password"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/reenterpassRescueRegET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Re-Enter Password"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/rescueRegBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/androidbtn"
+        android:text="Register"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+</LinearLayout>

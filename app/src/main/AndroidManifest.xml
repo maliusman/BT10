@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bluetoothappv10">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RescueRegister"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/mapkey" />
+
+        <activity android:name=".RescueAlert" />
+        <activity android:name=".RelativeHistory" />
+        <activity android:name=".RelativeViewECG" />
+        <activity android:name=".RelativeMain" />
+        <activity android:name=".DoctorNotification" />
+        <activity android:name=".PatientMedicalHistory" />
+        <activity android:name=".RelativeRegister" />
+        <activity android:name=".DoctorRegister" />
+        <activity android:name=".PatientRegister" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeviceList" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

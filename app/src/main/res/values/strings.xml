@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Heart ECG v10</string>
+    <string-array name="roles">
+        <item>Please select a category</item>
+        <item>Patient</item>
+        <item>Doctor</item>
+        <item>Relative</item>
+        <item>Rescue Services</item>
+    </string-array>
+    <string name="mapkey" translatable="false">AIzaSyDxcJsSeDaQvnFSn8wtbddFVlxvnCXdnEQ</string>
+
+    <string name="instruction">Tap the button to view the list of already Paired Devices. Make sure that the target device is already paired.</string>
+</resources>

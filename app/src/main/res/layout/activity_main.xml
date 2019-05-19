@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="4dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/purpleheart">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <!--Check whether bluetooth is available or not-->
+        <TextView
+            android:id="@+id/statusTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Bluetooth"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+        <!--Bluetooth icon (on/off)-->
+        <ImageView
+            android:id="@+id/BtIv"
+            android:layout_width="110dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <!--On button-->
+    <Button
+        android:id="@+id/onBtnMain"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/androidbtn"
+        android:text="Bluetooth On"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+    <!--Off button-->
+    <Button
+        android:id="@+id/offBtnMain"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/androidbtn"
+        android:text="Bluetooth Off"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+
+    <!--Discoverable button-->
+    <Button
+        android:id="@+id/discoBtnMain"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/androidbtn"
+        android:text="Discoverable"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+    <!--Get list of paired devices button-->
+
+    <Button
+        android:id="@+id/pairedlistBtnMain"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/androidbtn"
+        android:text="Connect"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+
+    <!--Log out button-->
+
+    <Button
+        android:id="@+id/logoutBtnMain"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/androidbtn"
+        android:text="Logout"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+</LinearLayout>

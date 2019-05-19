@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorNotification"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/purpleheart"
+    android:paddingHorizontal="4dp">
+
+    <TextView
+        android:id="@+id/DocNotifyHeadingTxt"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Doctor Alert"
+        android:textSize="35sp"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/alertImgDN"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/alertpng"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:text="Name:"
+        android:background="#44444444"/>
+        <TextView
+            android:id="@+id/nameDNTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:text="Ali Usman"
+            android:background="#44444444"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:text="Patient ID:"
+        android:background="#44444444"/>
+    <TextView
+        android:id="@+id/patIDDNTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:text="111"
+        android:background="#44444444"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:text="Issue: "
+            android:background="#44444444"/>
+        <TextView
+            android:id="@+id/issueDNTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:text="Heart beat stopped"
+            android:background="#44444444"/>
+    </LinearLayout>
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/graphviewDN"/>
+</LinearLayout>

@@ -1,0 +1,148 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientRegister"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="4dp"
+    android:background="@drawable/purpleheart">
+    <TextView
+        android:id="@+id/PatientRegHeadingTxt"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Patient Registeration"
+        android:textSize="35dp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/namePRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Name"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/agePRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Age"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="number"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <RadioButton
+                android:id="@+id/MaleRBtn"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:textColor="#bbbb"
+                android:text="Male"
+                android:textSize="24sp"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/FemRBtn"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:textColor="#bbbb"
+                android:text="Female"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/contactNoPRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Phone Number"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/docIdPRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Doctor ID"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/emailPRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Email"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/passwordPRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Password"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/reenterpasswPRET"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:hint=" Re-Enter Password"
+        android:textColorHint="#bbbb"
+        android:background="#44444444"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/patientRegBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/androidbtn"
+        android:text="Register"
+        android:textColor="@color/font"
+        android:textSize="20sp"/>
+
+</LinearLayout>
